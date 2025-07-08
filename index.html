@@ -1,12 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shamil Bagauov - CV</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
 </head>
 <body>
-    <h1>HIIIIIII</h1>
+  <header class="header">
+    <div class="container header__container">
+      <img src="img.jpg" alt="Shamil Bagauov photo" class="header__photo" />
+      <div class="header__info">
+        <h1 class="header__name">Shamil Bagauov</h1>
+        <p class="header__desc">Front-end Developer with 3 years experience</p>
+        <nav class="header__nav">
+          <ul>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="main container">
+    <section id="about" class="section about">
+      <h2>About me</h2>
+      <p>Hello! My name is Shamil. I was born and raised in Kazan, Russia. I am 16 years old now. I have been a front-end developer for 3 years. I enjoy creating clean and modern websites.</p>
+    </section>
+
+    <section id="skills" class="section skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5 &amp; CSS3</li>
+        <li>JavaScript (ES6+)</li>
+        <li>React.js</li>
+        <li>Git &amp; GitHub</li>
+        <li>Responsive Web Design</li>
+        <li>Basic Node.js</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><a href="https://github.com/Grennoro/portfolio" target="_blank" rel="noopener noreferrer">Personal Portfolio</a> — Static site to showcase my work.</li>
+        <li><a href="https://github.com/Grennoro/weather-app" target="_blank" rel="noopener noreferrer">Weather App</a> — React app fetching weather data from API.</li>
+      </ul>
+    </section>
+
+    <section id="education" class="section education">
+      <h2>Education & English Level</h2>
+      <p>Kazan High School, 10th grade (graduation expected 2026)</p>
+      <p>English: B2</p>
+    </section>
+
+    <section id="contacts" class="section contacts">
+      <h2>Contacts</h2>
+      <address>
+        <p>Email: <a href="mailto:shamilbagauov@gmail.com">shamilbagauov@gmail.com</a></p>
+        <p>Telegram: <a href="https://t.me/GRENNORO" target="_blank" rel="noopener noreferrer">@GRENNORO</a></p>
+      </address>
+    </section>
+
+    <section id="code-examples" class="section code-examples">
+      <h2>Code Examples</h2>
+      <pre><code>
+// Example: simple function to greet
+function greet(name) {
+  return `Hello, ${name}!`;
+}
+
+console.log(greet('Shamil'));
+      </code></pre>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <p>© 2025 Shamil Bagauov</p>
+      <p><a href="https://github.com/Grennoro" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+      <p>
+        <a href="https://rs.school/js/" target="_blank" rel="noopener noreferrer" class="rss-link" aria-label="RSS School">
+          <img src="rs-school-logo.svg" alt="RSS School logo" style="background-color: white;"/>
+        </a>
+      </p>
+    </div>
+  </footer>
 </body>
 </html>
